@@ -2,30 +2,30 @@
 **/.terraform/*
 
 # Ignore variables files
-*.auto.tfvars
-*.tfvars
-*.tfvars.json
+**/*.auto.tfvars
+**/*.tfvars
+**/*.tfvars.json
 
 # Ignore override files
-*.tfoverride
+**/*.tfoverride
 
 # Ignore environment-specific files
-.envrc
+**/.envrc
 
 # Ignore CLI configuration files
-.terraformrc
-.terraform.*
-terraform.rc
+**/.terraformrc
+**/.terraform.*
+**/terraform.rc
 
 # .tfstate files
-*.tfstate
-*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
 
 # Crash log files
-crash.log
-crash.*.log
+**/crash.log
+**/crash.*.log
 
 # Ignore sensitive files
-*.pem
-*.key
-*.pub
+**/*.pem
+**/*.key
+**/*.pub

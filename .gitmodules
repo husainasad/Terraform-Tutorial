@@ -1,0 +1,3 @@
+[submodule "FaceFlow-Serverless"]
+	path = FaceFlow-Serverless
+	url = https://github.com/husainasad/FaceFlow-Serverless.git
